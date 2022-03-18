@@ -36,10 +36,8 @@ export function Test() {
       }
       setIncomingChars(updatedIncomingChars);
     }
-
     const updatedTypedChars = typedChars + key;
     setTypedChars(updatedTypedChars);
-    //3
     setAccuracy(
       ((updatedOutgoingChars.length * 100) / updatedTypedChars.length).toFixed(
         2
