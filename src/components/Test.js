@@ -36,6 +36,7 @@ export function Test() {
       }
       setIncomingChars(updatedIncomingChars);
     }
+
     const updatedTypedChars = typedChars + key;
     setTypedChars(updatedTypedChars);
     //3
